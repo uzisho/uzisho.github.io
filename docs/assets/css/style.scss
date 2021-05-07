@@ -1,7 +1,8 @@
 ---
 ---
 
-@import "";
+@import "minima/skins/{{ site.minima.skin | default: 'classic' }}";
+@import "minima/initialize";
 
 div {
     color: #884930;
